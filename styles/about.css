@@ -75,7 +75,9 @@
     justify-content: start;
   }
 
-  .about__card .card:nth-child(2) {}
+  .about__card .card:nth-child(2) {
+    margin: 0;
+  }
 }
 
 @media(max-width:576px) {
@@ -91,4 +93,5 @@
   .about__desc {
     font-size: 16px;
   }
+
 }
